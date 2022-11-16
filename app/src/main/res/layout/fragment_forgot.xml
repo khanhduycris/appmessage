@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bgr"
+    android:orientation="vertical"
+    tools:context=".ui.LoginFragment"
+    android:padding="12dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@drawable/boder_radius_edt"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/edt_pass_word"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Password"-->
+<!--        android:padding="10dp"-->
+<!--        android:inputType="textPassword" />-->
+
+    <Button
+        android:id="@+id/btn_riset_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Riset PassWord"
+        android:background="@drawable/boder_radius"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:padding="12dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>

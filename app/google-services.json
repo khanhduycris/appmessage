@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994654293101",
+    "project_id": "my-app-message",
+    "storage_bucket": "my-app-message.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994654293101:android:26e951d339b0523857c364",
+        "android_client_info": {
+          "package_name": "com.poly.appmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994654293101-6usvolsq39shhe1bgttib5e6cledj9gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIo6v-WE8k2_syvczABcxVIw-iRhFI2BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994654293101-6usvolsq39shhe1bgttib5e6cledj9gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

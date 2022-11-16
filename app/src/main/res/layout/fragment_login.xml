@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bgr"
+    android:orientation="vertical"
+    tools:context=".ui.LoginFragment"
+    android:padding="12dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:background="@drawable/boder_radius_edt"
+        android:textColor="@color/white"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_pass_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:background="@drawable/boder_radius_edt"
+        android:drawableLeft="@drawable/ic_lock"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boder_radius"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:padding="12dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do not have an account ?"
+        android:padding="12dp"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot password "
+        android:padding="12dp"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/white" />
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginLeft="42dp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="Welcome and thank you for using My app!"-->
+<!--            android:textColor="@color/black" />-->
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context=".ui.userlist.UserListFragment"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="12dp">-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginEnd="151dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:backgroundTint="@color/white" />-->
+
+
+<!--    </RelativeLayout>-->
+    
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/btn_face_book"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:src="@drawable/ic_fb"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.498"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.941" />-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:src="@drawable/googleg_disabled_color_18"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.309"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/floatingActionButton2"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.941" />-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:src="@drawable/ic_tw"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/floatingActionButton2"-->
+<!--            app:layout_constraintHorizontal_bias="0.688"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.941" />-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+</LinearLayout>
